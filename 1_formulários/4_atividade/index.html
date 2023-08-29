@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulários</h1>
+    </header>
+    <main>
+        <h2> 4 tipos de "inputs" diferentes </h2>
+
+        <form action="">
+            <fieldset>
+                <input id ="nome" type="text" placeholder="Nome do usuário: ">
+                <input id="data" type="date" placeholder="Data de nascimento: ">
+                <input id="=senha" type="password" placeholder="Senha: ">
+                <div>
+                    <input id="termos" type="checkbox">
+                    <label for="termos">Eu concordo com os termos.</label>
+                  </div>
+                  <button>Registrar</button>
+            </fieldset>
+        
+            <div>
+                <h2>grupo de inputs do tipo radio com 4 opções</h2>
+                <p>Em qual lugar os valar se estabeleceram na Primeira Era</p>
+                <div>
+                    <input type="radio" id="numenor" name="lugar">
+                    <label for="numenor">Númenor</label>
+                </div>
+                <div>
+                    <input type="radio" id="beleriand" name="lugar">
+                    <label for="beleriand">Beleriand</label>
+                </div>
+                <div>
+                    <input type="radio" id="valinor" name="lugar">
+                    <label for="valinor">Valinor</label>
+                </div>
+                <div>
+                    <input type="radio" id="valfenda" name="lugar">
+                    <label for="valfenda">Valfenda</label>
+                </div>
+            </div>
+            <div>
+                <h2>Select com 4 opções</h2>
+                <label for="prog">Escolha um tipo de linguagem: </label>
+                <select name="prog" id="prog">
+                    <option disabled selected>Selecione...</option>
+                    <option value="pyt">Python</option>
+                    <option value="jav">Java</option>
+                    <option value="c">C++</option>
+                    <option value="htm">Html</option>
+                </select>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
